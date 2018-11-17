@@ -1,3 +1,3 @@
 module.exports = {
-  Book: require("./book")
+  hunting_data: require("./huntingData.js")
 };

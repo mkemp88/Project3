@@ -1,0 +1,17 @@
+
+#filterContainer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#dropdown {
+    width: 200px;
+}
+
+#resultContainer {
+    background-color: white;
+    height: 500px;
+}
