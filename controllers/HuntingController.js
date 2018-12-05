@@ -2,10 +2,14 @@ const db = require("../models");
 
 module.exports = {
   findName: function(req, res) {
-    db.hunting_data.find({C}).then((data) => {
-      console.log(data);
+
+    const animalName = req.params.animal.charAt(0).toUpperCase()+ req.params.animal.slice(1);
+
+
+    db.hunting_data.find({Category: {$regex: animalName, $options : "i"}}).then((data) => {
       console.log("this")
       res.json(data)
+      console.log(data);
     }).catch(err => console.log(err));
   },
   create: function(req, res) {

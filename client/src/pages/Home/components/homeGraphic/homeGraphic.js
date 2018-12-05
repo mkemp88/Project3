@@ -6,7 +6,7 @@ export default class HomeGraphic extends Component {
         return (
             <div>
                 <div id="container">
-                    Texas Public Land Hunting
+                    TEXAS PUBLIC LAND HUNTING
                 </div>
                 <div id="container2">
                     Go afield with a good attitude, with respect for the wildlife you hunt and for the forest and fields in which you walk. Immerse yourself in the outdoor experience. It will cleanse your soul and make you a better person.
@@ -19,7 +19,7 @@ export default class HomeGraphic extends Component {
                     </div>
                     <form id="searchForm" className="form-inline">
                         <input id="searchInput" className="form-control col-7" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <button id="searchButton" className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                     <div className="row">
                         <div className="col-3">
@@ -47,14 +47,14 @@ export default class HomeGraphic extends Component {
                             <div id="feralHog">
                             </div>
                             <div className="categoryTag">
-                                <a href="/analytics/feral_hog">Feral Hog</a>
+                                <a href="/analytics/feral hog">Feral Hog</a>
                             </div>
                         </div>
                         <div className="col-3">
                             <div id="gameBirds">
                             </div>
                             <div className="categoryTag">
-                                <a href="/analytics/game_birds">Game Birds</a>
+                                <a href="/analytics/game birds">Game Birds</a>
                             </div>
                         </div>
                         <div className="col-3">
@@ -68,7 +68,7 @@ export default class HomeGraphic extends Component {
                             <div id="muleDeer">
                             </div>
                             <div className="categoryTag">
-                                <a href="/analytics/mule_deer">Mule Deer</a>
+                                <a href="/analytics/mule deer">Mule Deer</a>
                             </div>
                         </div>
                         <div className="col-3">
@@ -82,7 +82,7 @@ export default class HomeGraphic extends Component {
                             <div id="privateLands">
                             </div>
                             <div className="categoryTag">
-                                <a href="/analytics/private_lands">Private Lands</a>
+                                <a href="/analytics/private lands">Private Lands</a>
                             </div>
                         </div>
                         <div className="col-3">
@@ -103,7 +103,7 @@ export default class HomeGraphic extends Component {
                             <div id="youth">
                             </div>
                             <div className="categoryTag">
-                                <a href="/analytics/youth_only">Youth Only</a>
+                                <a href="/analytics/youth only">Youth Only</a>
                             </div>
                         </div>
                     </div>

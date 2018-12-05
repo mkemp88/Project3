@@ -19,15 +19,17 @@ body{
     color: white;
     text-align: center;
     padding: 20px;
-    font-family: 'IM Fell Great Primer SC', serif;
-    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 15px;
 }
 
 #container2 {
     text-align: center;
     padding: 100px;
     color: white;
-    font-size: 35px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -41,6 +43,8 @@ body{
 #searchForm {
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #searchInput {
@@ -52,6 +56,12 @@ body{
     color: white;
     padding-bottom: 50px;
     font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#searchButton {
+    font-family: 'Montserrat', sans-serif;
 }
 
 #alligator {
@@ -172,7 +182,7 @@ body{
 #privateLands {
     border-radius: 100px;
     background-image: url("../../../../assets/images/553-01.jpg");
-    background-size: 150%;
+    background-size: 210%;
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
@@ -214,7 +224,7 @@ body{
 #youth {
     border-radius: 100px;
     background-image: url("../../../../assets/images/Kip-sacking-in-on-his-first-buck.jpg");
-    background-size: 150%;
+    background-size: 190%;
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
@@ -230,4 +240,5 @@ body{
     text-align: center;
     padding-top: 20px;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }

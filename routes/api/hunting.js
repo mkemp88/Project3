@@ -1,9 +1,9 @@
 const router = require("express").Router();
 const huntingController = require("../../controllers/HuntingController.js");
 
-router.route("/")
+
+router.route("/:animal")
     .get(huntingController.findName)
-    .post(huntingController.create);
 
 // Matches with "/api/books"
 // router.route("/")
